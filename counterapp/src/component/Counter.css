@@ -1,0 +1,46 @@
+.main {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: 50px 50px 50px;
+    /* border: 1px solid red; */
+
+
+}
+input{
+    height: 45px;
+    width: 50px;
+    color: #B71C1C;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    border-top: 1.5px solid #B71C1C;
+    border-bottom: 1.5px solid #B71C1C;
+    outline: none;
+    background-color: #fce4e4;
+
+}
+button{
+    /* padding: 10px; */
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1.5px solid #B71C1C;
+}
+
+.inc button {
+    border-radius: 0 8px 8px 0;
+    background-color:#d37676 ;
+}
+
+.decr button {
+    border-radius: 10px 0 0 8px;
+}
+

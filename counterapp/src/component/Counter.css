@@ -1,15 +1,20 @@
 .main {
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
+    width: 14%;
+    margin-top: 20%;
+    margin-left: 30%;
+    border-radius: 5px; 
+    padding: 40px 0px;
+    background-color: white;
+    border: 2px solid rgb(236, 233, 233) ;
+    
 }
 
 .container{
     display: grid;
     width: 50%;
-    margin: auto;
+    margin-left: 15%;
     grid-template-columns: 50px 50px 50px;
-    /* border: 1px solid red; */
+   
 
 
 }
@@ -20,14 +25,12 @@ input{
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    border-top: 1.5px solid #B71C1C;
-    border-bottom: 1.5px solid #B71C1C;
+    border: 1.5px solid #B71C1C;
     outline: none;
     background-color: #fce4e4;
 
 }
 button{
-   
     width: 50px;
     height: 50px;
     font-weight: 600;
@@ -37,10 +40,13 @@ button{
 
 .inc button {
     border-radius: 0 8px 8px 0;
-    background-color: green;
+    background-color:#b63333 ;
+    color: white;
 }
 
 .decr button {
     border-radius: 10px 0 0 8px;
+    background-color: white;
+    color:#b63333 ;
 }
 
